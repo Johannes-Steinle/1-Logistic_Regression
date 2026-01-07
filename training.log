@@ -16,3 +16,78 @@
 2026-01-07 10:51:35,062 - INFO - Erstelle Vorhersagen...
 2026-01-07 10:51:35,064 - INFO - Starte Modelltraining...
 2026-01-07 10:51:35,082 - INFO - Training beendet in 0.0185 Sekunden.
+2026-01-07 12:16:01,779 - INFO - Daten erfolgreich von Advertising.csv geladen.
+2026-01-07 12:16:01,781 - INFO - Starte Modelltraining...
+2026-01-07 12:16:01,799 - INFO - Training beendet in 0.0174 Sekunden.
+2026-01-07 12:16:01,799 - INFO - Erstelle Vorhersagen...
+2026-01-07 12:16:01,800 - INFO - Starte Modelltraining...
+2026-01-07 12:16:01,816 - INFO - Training beendet in 0.0163 Sekunden.
+2026-01-07 12:18:12,284 - INFO - Ran with args: ('Advertising.csv',), and kwargs: {}
+2026-01-07 12:18:12,288 - INFO - load_data ran in: 0.0034 sec
+2026-01-07 12:18:12,292 - INFO - Ran with args: (     Daily Time Spent on Site  Age  Area Income  Daily Internet Usage  Male
+290                     50.52   31     72270.88                171.62     0
+167                     86.06   31     53767.12                219.72     1
+486                     83.97   40     66291.67                158.42     1
+683                     76.83   28     67990.84                192.81     0
+876                     67.39   44     51257.26                107.19     0
+..                        ...  ...          ...                   ...   ...
+575                     48.86   54     53188.69                134.46     0
+838                     44.13   40     33601.84                128.48     1
+337                     75.32   28     59998.50                233.60     1
+523                     67.94   43     68447.17                128.16     0
+863                     76.64   39     66217.31                241.50     1
+
+[700 rows x 5 columns], 290    1
+167    0
+486    0
+683    0
+876    1
+      ..
+575    1
+838    1
+337    0
+523    1
+863    0
+Name: Clicked on Ad, Length: 700, dtype: int64), and kwargs: {}
+2026-01-07 12:18:12,309 - INFO - fit_model ran in: 0.0164 sec
+2026-01-07 12:18:12,311 - INFO - Ran with args: (LogisticRegression(max_iter=1000),      Daily Time Spent on Site  Age  Area Income  Daily Internet Usage  Male
+545                     42.60   55     55121.65                168.29     0
+298                     80.39   31     66269.49                214.74     0
+109                     74.02   32     72272.90                210.54     0
+837                     55.77   49     55942.04                117.33     1
+194                     77.20   33     49325.48                254.05     1
+..                        ...  ...          ...                   ...   ...
+847                     88.82   36     58638.75                169.10     0
+682                     43.57   36     50971.73                125.20     1
+884                     70.92   39     66522.79                249.81     1
+325                     36.87   36     29398.61                195.91     0
+482                     69.42   25     65791.17                213.38     0
+
+[300 rows x 5 columns]), and kwargs: {}
+2026-01-07 12:18:12,312 - INFO - predict_model ran in: 0.0010 sec
+2026-01-07 12:18:12,315 - INFO - Ran with args: (     Daily Time Spent on Site  Age  Area Income  Daily Internet Usage  Male
+290                     50.52   31     72270.88                171.62     0
+167                     86.06   31     53767.12                219.72     1
+486                     83.97   40     66291.67                158.42     1
+683                     76.83   28     67990.84                192.81     0
+876                     67.39   44     51257.26                107.19     0
+..                        ...  ...          ...                   ...   ...
+575                     48.86   54     53188.69                134.46     0
+838                     44.13   40     33601.84                128.48     1
+337                     75.32   28     59998.50                233.60     1
+523                     67.94   43     68447.17                128.16     0
+863                     76.64   39     66217.31                241.50     1
+
+[700 rows x 5 columns], 290    1
+167    0
+486    0
+683    0
+876    1
+      ..
+575    1
+838    1
+337    0
+523    1
+863    0
+Name: Clicked on Ad, Length: 700, dtype: int64), and kwargs: {}
+2026-01-07 12:18:12,333 - INFO - fit_model ran in: 0.0179 sec

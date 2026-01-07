@@ -21,9 +21,13 @@ Dieses Projekt wurde gemäß den Anforderungen für Aufgabe 2 refaktoriert und m
 ### Testergebnisse
 Die Tests wurden erfolgreich ausgeführt:
 ```text
-[Test Predict] Gemessene Accuracy: 0.9766666666666667
-[Test Fit] Gemessene Dauer: 0.0189s (Limit: 0.6000s)
-Ran 2 tests in 0.043s
+[Test predict()] Gemessene Accuracy: 0.9767
+.
+[Test fit()] Gemessene Dauer: 0.0199s (Limit: 0.7500s)
+.
+----------------------------------------------------------------------
+Ran 2 tests in 0.048s
+
 OK
 ```
 
